@@ -1,0 +1,27 @@
+{
+  "name": "avenox-cloud-discord-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Discord bot untuk Avenox Cloud - FAQ, sales, support",
+  "main": "avenox-bot.js",
+  "scripts": {
+    "start": "node avenox-bot.js",
+    "dev": "nodemon avenox-bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "claude",
+    "avenox"
+  ],
+  "author": "BIL CLOUD",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
